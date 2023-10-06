@@ -1,0 +1,32 @@
+.active {
+    text-decoration: none;
+    padding-right: 10px;
+    color: rgb(54, 150, 187);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.active:hover {
+    color: rgb(54, 150, 187);
+}
+
+.inactive {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 10px;
+    color: rgb(54, 150, 187);
+}
+
+.inactive:hover {
+    color: rgb(54, 150, 187);
+}
+
+.img-container {
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.img-container img {
+    max-width: 100%;
+}

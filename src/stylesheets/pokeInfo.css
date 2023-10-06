@@ -1,0 +1,53 @@
+.card {
+    width: 18rem;
+    border: none;
+    background-color: white;
+}
+
+.card h2::first-letter {
+    text-transform: uppercase;
+}
+
+.card .h2-position {
+    text-align: center;
+}
+
+.type {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.25em;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.type-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.stats {
+    text-align: left;
+    margin-top: 10px
+}
+
+.stats ul li {
+    font-weight: bold;
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.stats ul li img {
+    width: 20px;
+    max-width: 100%;
+    margin-right: 5px;
+}

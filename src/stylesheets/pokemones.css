@@ -1,0 +1,12 @@
+h2, select, button {
+    font-family: 'VT323', monospace;
+}
+
+select {
+    font-size: 28px;
+    text-align: center;
+}
+
+button {
+    font-size: 20px;
+}
